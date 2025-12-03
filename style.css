@@ -1,0 +1,58 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(188, 183, 183);
+    padding: 7px;
+}
+
+.logo{
+    /* height: 100px; */
+    width: 100px;
+    margin-left: 20px;
+}
+
+.navList{
+    display: flex;
+    list-style: none;
+    margin-right: 10px;
+    padding-top: 15px;
+}
+.navList > li{
+    margin-right: 10px;
+}
+
+
+.searchBarContainer{
+    margin: 10px;
+}
+
+.searchBar{
+    cursor: pointer;
+    padding: 4px 8px;
+    font-weight: bold;
+}
+
+.cardBody{
+    width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.cardBody:hover{
+    border: 1px solid black;
+}
+
+.resImage{
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.resInfo{
+    list-style: none;
+    margin-left: -30px;
+}
+
+.resListContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
